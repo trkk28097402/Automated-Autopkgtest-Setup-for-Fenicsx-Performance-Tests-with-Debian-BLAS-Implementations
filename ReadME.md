@@ -10,5 +10,5 @@ You have to be root to run this shell script.
 sh iterate_benchmark.sh
 ```
 
-## How do it work
+## How does it work
 It will iterate over all the free BLAS implementation in Debian package, and use `autopkgtest` to run the fenicsx-performance-tests with different BLAS libraries respectively. 
