@@ -14,4 +14,4 @@ sh iterate_benchmark.sh
 It will iterate over all the free BLAS implementation in Debian package, and use `autopkgtest` to run the fenicsx-performance-tests with different BLAS libraries respectively. 
 
 ## What result should it present
-There should be a directory under you `$HOME` name `fenics−benchmarking−rs`, and inside it will have different directory which name by their used implementation of blas, which content all the logs of benchmarking.
+There should be a directory under your `$HOME` name `fenics−benchmarking−rs`, and inside it will have different directory which name by their used implementation of blas, which content all the logs of benchmarking.
