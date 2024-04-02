@@ -4,7 +4,7 @@ cd $HOME
 ARCH=x86_64-linux-gnu
 LIB_HOME=/usr/lib/$ARCH
 FENICS_VERSION=fenicsx-performance-tests-0.5.0~git20220731.821823b
-NPROC=4
+NPROC=2
 
 # Update package list
 sudo apt update
